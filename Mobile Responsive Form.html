@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Responsive Styles.css">
+    <link rel="icon" type="png" href="./Img/agenda_11547641.png">
+    <link rel="author" href="KeneThembinkosi999@gmail.com">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <div class="main-box">
+            <h1>Health Survey Form</h1>
+            <form action="">
+                <fieldset class="fieldset-1">
+                    <legend><b>Personal Information</b></legend>
+                    <label for="name"><b>Name</b></label><br>
+                    <div class="name">
+                    <input class="First" type="text" name="name" placeholder="First" required>
+                    <input type="text" name="last" placeholder="last" required>
+                    </div>
+                    <div class="DOF">
+                        <div class="date">
+                            <label><b>Date of Birth</b></label><br>
+                            <input type="date" name="date" required >
+                        </div>
+                        <div class="gender">
+                            <label><b>Gender</b></label><br>
+                            <input type="radio" name="gender" value="Male">
+                            <label for="Male">Male</label>
+                            <input type="radio" name="gender" value="Female">
+                            <label for="Female">Female</label>
+                        </div>
+                    </div>
+                    <label for="address"><b>Address</b></label>
+                    <div class="Address">
+                        <input class="address-input-1" type="text" name="street address" placeholder="Street Address" required>
+                        <input class="address-input-2" type="text" name="street address 2" placeholder="Address Line 2">
+                    </div>
+                    <div class="city-main">
+                        <div class="city-state">
+                            <input class="city-input" type="text" name="city" placeholder="City" required>
+                            <input class="state-input" type="text" name="state" placeholder="State/Province" required>
+                        </div>
+                        <div class="code-country">
+                            <input class="code-input" type="text" name="pincode" placeholder="Pincode" required>
+                            <input class="country-input" type="country" name="country" placeholder="Select Country" required>
+                        </div>
+                    </div>
+                    <label for="phone"><b>Phone Number</b></label>
+                    <div class="phone-number">
+                        <input class="home-input" type="tel" name="home" placeholder="Home" required>
+                        <input class="work-input" type="tel" name="work" placeholder="Work" required>
+                    </div>
+                    <label for="email"><b>Email</b></label>
+                    <div class="main-email">
+                        <input class="email" type="text" name="email" placeholder="example@gmail.com" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="fieldset-2">
+                    <legend><b>General Information</b></legend>
+                    <label for="what-is-your"><b>What is your</b></label>
+                    <div class="what-is-your">
+                        <input class="age" type="number" name="age" placeholder="Age" min="0" max="120" required>
+                        <input class="weight" type="text" name="weight" placeholder="Weight Kg" required>
+                        <input class="height" type="text" name="height" placeholder="Height ft" required>
+                     </div>
+                     <label for="exercise"><b>Do you regularly engage in any if the following exercises</b></label>
+                     <div class="exercise">
+                        <input type="checkbox" name="Walking" id="Walking">
+                        <label for="Walking">Walking</label><br>
+                        <input type="checkbox" name="Running" id="Running">
+                        <label for="Running">Running</label><br>
+                        <input type="checkbox" name="Swimming" id="Swimming">
+                        <label for="Swimming">Swimming</label><br>
+                        <input type="checkbox" name="Biking" id="Biking">
+                        <label for="Biking">Biking</label><br>
+                        <input type="checkbox" name="Others" id="Others">
+                        <label for="Others">Others</label><br>
+                        <input type="checkbox" name="No exercise" id="No exercise">
+                        <label for="No exercise">I don't exercise</label><br>
+                     </div>
+                     <label for="sleep"><b>On average, how many hours do you sleep ?</b></label>
+                     <div class="sleep">
+                        <input class="sleep-input" type="text" name="sleep-input" placeholder="h/hr" required>
+                     </div>
+                     <label for="smoking"><b>Have you ever smoked cigarettes, pipes or cigars?</b></label>
+                     <div class="habits">
+                        <input type="radio" name="smoking" value="smoking">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="smoking" value="smoking">
+                        <label for="No">No</label><br><br>
+
+                        <label for="drugs"><b>Are you currently using or do you have a history of illegal drug use?</b></label><br>
+                        <input type="radio" name="drugs" value="drugs">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="drugs" value="drugs">
+                        <label for="No">No</label><br><br>
+
+                        <label for="alcohol"><b>Do you consume alcohol?</b></label><br>
+                        <input type="radio" name="alcohol" value="alcohol">
+                        <label for="Yes">Yes</label>
+                        <input type="radio" name="alcohol" value="alcohol">
+                        <label for="No">No</label><br>
+                    </div>
+                </fieldset>
+
+                <fieldset class="fieldset-3">
+                    <legend><b>Medical Information</b></legend>
+                    <label for="check"><b>Check all that apply to you or your immediate family?</b></label>
+                    <div class="conditions">
+                        <input type="checkbox" name="asthma" id="asthma">
+                        <label for="asthma">Asthma</label><br>
+                        <input type="checkbox" name="cancer" id="cancer">
+                        <label for="cancer">Cancer</label><br>
+                        <input type="checkbox" name="hiv" id="hiv">
+                        <label for="hiv">HIV and AIDS</label><br>
+                        <input type="checkbox" name="diabetes" id="diabetes">
+                        <label for="diabetes">Diabetes</label><br>
+                        <input type="checkbox" name="hypertension" id="hypertension">
+                        <label for="hypertension">Hypertension</label><br>
+                        <input type="checkbox" name="malaria" id="malaria">
+                        <label for="malaria">Malaria</label><br>
+                        <input type="checkbox" name="seizure" id="seizure">
+                        <label for="seizure">Seizure Disorder</label><br>
+                        <input type="checkbox" name="psychiatric" id="psychiatric">
+                        <label for="psychiatric">Psychiatric Disorders</label><br>
+                        <input type="checkbox" name="mental" id="mental">
+                        <label for="mental">Mental Health</label><br>
+                        <input type="checkbox" name="stroke" id="stroke">
+                        <label for="stroke">Stroke</label><br>
+                        <input type="checkbox" name="Others" id="Others">
+                        <label for="Others">Others</label><br>
+                        <input type="checkbox" name="not" id="not">
+                        <label for="not">Not Applicable</label><br>
+                    </div>
+                    <label for="check"><b>Check all symptoms you are currently experiencing</b></label>
+                    <div class="symptoms">
+                        <input type="checkbox" name="allergy" id="allergy">
+                        <label for="allergy">Allergy</label><br>
+                        <input type="checkbox" name="Eye" id="Eye">
+                        <label for="Eye">Eye</label><br>
+                        <input type="checkbox" name="Lymphatic" id="Lymphatic">
+                        <label for="Lymphatic">Lymphatic</label><br>
+                        <input type="checkbox" name="Fever" id="Fever">
+                        <label for="Fever">Fever</label><br>
+                        <input type="checkbox" name="Eating" id="Eating">
+                        <label for="Eating">Eating Disorder</label><br>
+                        <input type="checkbox" name="Hemtalogical" id="Hemtalogical">
+                        <label for="Hemtalogical">Hemtalogical</label><br>
+                        <input type="checkbox" name="Musculoskeletal" id="Musculoskeletal">
+                        <label for="Musculoskeletal">Musculoskeletal Pain</label><br>
+                        <input type="checkbox" name="Skin" id="Skin">
+                        <label for="Skin">Skin Disorders</label><br>
+                        <input type="checkbox" name="Gastrointestinal" id="Gastrointestinal">
+                        <label for="Gastrointestinal">Gastrointestinal</label><br>
+                        <input type="checkbox" name="Weight" id="Weight">
+                        <label for="Weight">Weight Loss</label><br>
+                        <input type="checkbox" name="Others" id="Others">
+                        <label for="Others">Others</label><br>
+                        <input type="checkbox" name="not" id="not">
+                        <label for="not">Not Applicable</label><br>
+                    </div>
+                    <label for="allergies"><b>Please list any medication allergies that you have</b></label><br>
+                    <textarea name="bio" class="allergies"  placeholder="list allergies you have"></textarea><br>
+
+                    <label for="allergies"><b>Please list any medications you are currently taking</b></label><br>
+                    <textarea name="bio" class="allergies"  placeholder="List medication currently taking"></textarea><br>
+
+                    <label for="pregnant"><b>If you are a women, are you currently pregnant, or is there a posibility that you are</b><br>
+                        <b>pregenant</b>
+                    </label>
+                    <div class="preg">
+                        <div class="go-gender">
+                        <input type="radio" name="agree" value="agree">
+                        <label for="agree">Yes</label>
+                        <input type="radio" name="disagree" value="disagree">
+                        <label for="disagree">No</label>
+                        <input type="radio" name="N/A" value="N/A">
+                        <label for="N/A">Not Applicable</label>
+                        </div>
+                    </div>
+                    <label for="health"><b>In general, what would you say your health is</b></label><br>
+                    <label for="scale">* Taking 1 to be poor and 5 to be exellent</label><br>
+                    <select class="health" name="health" required selected="">
+                        <optgroup label="Health">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </optgroup>
+                    </select>
+
+                    <div class="health-care">
+                        <label for="health-care">
+                            <b>When you think about your health care, how much do you agree or disagree with this</b><br>
+                            <b>statement: "I recieve exactly what I want and need exactly when and how I want and</b><br>
+                            <b>need it"</b><br>
+                            *Taking 1 to be strongly dis-agree and 5 to be strongly agree <br>
+                            &nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;5 <br>
+                            <input type="range" min="1" max="6"><br> 
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

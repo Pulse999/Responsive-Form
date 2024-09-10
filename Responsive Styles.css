@@ -1,0 +1,317 @@
+body {
+    background-color: rgb(229, 224, 224);
+    margin: 0px;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.main-box {
+    position: relative;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main-box h1 {
+    text-align: center;
+}
+
+/* Field 1 */
+.name {
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.First {
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+.DOF {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+}
+
+.date {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.gender {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.Address {
+    position: relative;
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.address-input-1 {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.address-input-2 {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.city-main {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.city-state {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.city-input {
+    max-width: 330px;
+    margin-bottom: 3.5px;
+}
+
+.state-input {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.code-country {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.code-input {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.country-input {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.phone-number {
+    position: relative;
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.home-input {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.work-input {
+    max-width: 330px;
+    margin-bottom: 3px;
+}
+
+.main-email {
+    position: relative;
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.email {
+    max-width: 330px;
+}
+
+.fieldset-1 {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+    .DOF {
+        position: relative;
+        display: flex;
+        width: 100%;
+    }
+
+    .gender {
+        left: 45px;
+    }
+
+    .address-input-1, .address-input-2 {
+        min-width: 800px;
+    }
+
+    .city-input, .state-input, .code-input, .country-input{
+        min-width: 393px;
+    }
+
+    .city-main {
+        position: relative;
+        display: flex;
+        width: 100%;
+    }
+
+    .city-state, .code-country{
+        max-width: 400px;
+        margin-right: 3px;
+    }
+
+    .code-country {
+        margin-left: 3px;
+    }
+
+    .home-input, .work-input{
+        min-width: 393px;
+    }
+
+    .email {
+        min-width: 393px;
+    }
+
+}
+/* Field 1 */
+
+/* Field 2 */
+.what-is-your {
+    position: relative;
+    display: grid;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.age {
+    max-width: 175px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.weight {
+    max-width: 175px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.height {
+    max-width: 175px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.exercise {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sleep {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.habits {
+    position: relative;
+    margin-right: 60px;
+}
+
+.sleep-input {
+    min-width: 175px;
+}
+
+.smoking-no {
+    margin-bottom: 10px;
+}
+
+.fieldset-2 {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+    .what-is-your {
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .age, .weight, .height {
+        min-width: 258px;
+        margin-bottom: 3px;
+        margin-left: 3px;
+    }
+}
+/* Field 2 */
+
+/* Field 3 */
+.conditions {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.symptoms {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.allergies {
+    position: relative;
+    max-width: 175px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.preg {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.health {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.go-gender {
+    position: relative;
+    margin-right: 60px;
+}
+.scale {
+    width: 65px;
+    margin-bottom: 15px;
+}
+
+.health-care {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+    .allergies {
+        position: relative;
+        min-width: 800px;
+        margin-bottom: 10px;
+    }
+}
+/* Field 3 */
+
+.submit {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
